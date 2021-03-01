@@ -10,9 +10,9 @@ namespace Birthday
     {
         static void Main(string[] args)
         {
-            int length = int.Parse(Console.ReadLine());
-            int width = int.Parse(Console.ReadLine());
-            int height = int.Parse(Console.ReadLine());
+            var length = int.Parse(Console.ReadLine());
+            var width = int.Parse(Console.ReadLine());
+            var height = int.Parse(Console.ReadLine());
             double percentage = double.Parse(Console.ReadLine()) / 100;
 
             double volume = length * width * height;
